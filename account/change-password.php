@@ -30,8 +30,6 @@ try {
 
         // Conta localizada
         if ($result > 0) {
-
-            // Converter a senha para MD5
             $hashed_pwd = md5($pwd . $hash);
 
             // Verificar se a conta já possui um Discord sincronizado
