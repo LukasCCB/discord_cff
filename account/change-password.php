@@ -14,17 +14,16 @@ $hash = "Mo8^&a8!7b8";
 
 try {
 
-    if (isset($_GET['user_id']) && isset($_GET['new-pwd']) && isset($_GET['discordID']) && isset($_GET['serverID'])) {
+    if (isset($_GET['new-pwd']) && isset($_GET['discordID']) && isset($_GET['serverID'])) {
 
-        $user_id = $_GET['user_id'];
         $pwd = $_GET['new-pwd'];
         $discordID = $_GET['discordID'];
         $serverID = $_GET['serverID'];
 
         // Verificar se o USER_ID existe na tabela CF_MEMBER
-        $query = "SELECT * FROM CF_MEMBER WHERE USER_ID = :user_id";
+        $query = "SELECT * FROM CF_MEMBER WHERE DISCORD_ID = :discord_id";
         $statement = $db_global->prepare($query);
-        $statement->bindParam(':user_id', $user_id, PDO::PARAM_STR);
+        $statement->bindParam(':discord_id', $discordID, PDO::PARAM_STR);
         $statement->execute();
         $result = $statement->fetch(PDO::FETCH_ASSOC);
 
@@ -85,7 +84,7 @@ try {
         // Response em caso de parâmetros faltando
         returnJSON([
             'status' => false,
-            'data' => "Parâmetros faltando. Por favor, forneça user_id, pwd, discordID e serverID na URL."
+            'data' => "Parâmetros faltando. Por favor, forneça new-pwd, discordID e serverID na URL."
         ]);
     }
 
