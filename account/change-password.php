@@ -91,6 +91,6 @@ try {
 } catch (PDOException $e) {
     returnJSON([
         'status' => false,
-        'data' => "Erro na consulta: " . $e->getMessage()
+        'data' => "Erro na consulta: ".$e->getMessage()
     ]);
 }
