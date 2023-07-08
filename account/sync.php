@@ -6,6 +6,7 @@
  * Discord: https://discord.gg/TgCccsKSYu
  */
 
+require_once ("../config/autoload.php"); // Load .env vars
 require_once("../config/database.php");
 require_once("../config/response.php");
 

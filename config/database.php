@@ -16,9 +16,9 @@ class DBConnection {
         }
 
         // Dados de conexão
-        $server = '200.9.155.100,1433';
-        $username = 'hgw';
-        $password = '1234';
+        $server = getenv('DB_HOST').','.getenv('DB_PORT');
+        $username = getenv('DB_USER');
+        $password = getenv('DB_PASSWORD');
 
         // Configurar opções da conexão
         $options = array(

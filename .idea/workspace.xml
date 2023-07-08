@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9e7d8ed-ad6d-4f7a-b72e-ec5bbe74b190" name="Changes" comment="change password no need more user_id">
+    <list default="true" id="f9e7d8ed-ad6d-4f7a-b72e-ec5bbe74b190" name="Changes" comment="change password no need more user_id.">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Environment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/change-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/change-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/sync.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/sync.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,7 @@
       <workItem from="1661994106386" duration="5000" />
       <workItem from="1688545175591" duration="17100000" />
       <workItem from="1688572174133" duration="919000" />
-      <workItem from="1688764291490" duration="1653000" />
+      <workItem from="1688764291490" duration="3562000" />
     </task>
     <task id="LOCAL-00001" summary="master">
       <created>1688571775117</created>
@@ -97,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688829288775</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change password no need more user_id.">
+      <created>1688829461563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688829461563</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +150,8 @@
     <MESSAGE value="Default project" />
     <MESSAGE value="fixed" />
     <MESSAGE value="change password no need more user_id" />
-    <option name="LAST_COMMIT_MESSAGE" value="change password no need more user_id" />
+    <MESSAGE value="change password no need more user_id." />
+    <option name="LAST_COMMIT_MESSAGE" value="change password no need more user_id." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
